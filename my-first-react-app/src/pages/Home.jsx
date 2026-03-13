@@ -6,7 +6,7 @@ function Home (){
     <>
     <Header title="Home Page" subtitle="Welcome to..." />
      
-     //i want a image wheel 
+     i want a image wheel here
     </>
     );
 }

@@ -1,6 +1,12 @@
-function Profile () {
+import Header from "../components/Header";
+import TextWithHeader from "../components/TextWithHeader";
+
+function Profile (){
     return (
-        <h1>Profile Page</h1>
+    <>
+    <Header title="Profile" subtitle="Welcome to the profile page!" />
+     
+    </>
     );
 }
 
