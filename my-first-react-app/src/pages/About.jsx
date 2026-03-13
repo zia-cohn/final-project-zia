@@ -5,19 +5,19 @@ import TextWithHeader from "../components/TextWithHeader";
 function About (){
     return (
     <>
-    <Header title="About Me" subtitle="Meet the team" />
+    <Header title="About Me" subtitle="Meet the one-woman team" />
     
-    <div className="grid grid-cols-2 gap-4">
+    <div className="grid grid-cols-1 gap-4">
         <ProfileCard
             cardEmoji="🍓"
             cardHeader="Zia C"
             cardSubtitle="Project Lead"
-            cardBlurb="Bla Bla Bla"
+            cardBlurb="I created this project because as a Mongolian student, I wanted to share more about my history and culture in a fun and engaging way."
         />
     </div>
     <TextWithHeader
-        mySubtitle="{Our Mission:}"
-        myText="Our mission is..."
+        mySubtitle="My Mission:"
+        myText="The mission is..."
     />
     </>
         

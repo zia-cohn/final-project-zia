@@ -1,14 +1,14 @@
 import Header from "../components/Header";
 import TextWithHeader from "../components/TextWithHeader";
 
-function Home (){
+function Timeline (){
     return (
     <>
-    <Header title="Home Page" subtitle="Welcome to..." />
+    <Header title="Timeline" subtitle="Welcome to..." />
      
-     //i want a image wheel 
+
     </>
     );
 }
 
-export default Home;
+export default Timeline;
