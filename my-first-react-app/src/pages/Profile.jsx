@@ -1,17 +1,19 @@
 import Header from "../components/Header";
 import TextWithHeader from "../components/TextWithHeader";
+import ProfilePage from "../components/ProfilePage"; 
 
 
 function Profile (){
     return (
     <>
-    <Header title="Profile" subtitle="Welcome to the profile page!" />
+    <Header title="Account" subtitle="Make an account!" />
      
      <TextWithHeader
-        mySubtitle="What is...?"
-        myText=" This is..."
+        mySubtitle="Please sign in or make a profile."
+        myText=" This will allow you to save your progress."
     />
 
+        <ProfilePage />
     </>
     );
 }

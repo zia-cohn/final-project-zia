@@ -1,11 +1,15 @@
 import mongoliaHomepage from "../assets/mongoliaHomepage.jpg"; 
 
-function photoHomepage (){
+function PhotoHomepage (){
 
-<img src={mongoliaHomepage} ></img>
+    return(
+            <img src={mongoliaHomepage} alt="pic of mongolia"></img>
+
+    )
+
 
 
     
 }; 
 
-export default photoHomepage; 
+export default PhotoHomepage; 

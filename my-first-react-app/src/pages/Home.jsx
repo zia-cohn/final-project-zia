@@ -1,17 +1,18 @@
 import Header from "../components/Header";
 import TextWithHeader from "../components/TextWithHeader";
-import photoHomepage from "../components/photoHomepage"; 
+//import PhotoHomepage from "../components/PhotoHomepage"; 
 
 function Home (){
     return (
     <>
     <Header title="Home Page" subtitle="Welcome to..." />
      
-    <photoHomepage></photoHomepage>
+    <PhotoHomepage />
     
     <TextWithHeader
-        mySubtitle="What is...?"
-        myText="This is a interactive web page built to help you learn more about Mongolian History and Culture in a fun and interactive way!!"
+        mySubtitle="What is this?"
+        myText="This is a interactive web page built to help you learn more about Mongolian History and Culture in a fun and interactive way!! The importance of Mongolian history lies in its profound and lasting impact on global systems of trade, governance, warfare, and cultural exchange — even if it's often overlooked in mainstream Western curricula.
+"
     />
 
     </>
