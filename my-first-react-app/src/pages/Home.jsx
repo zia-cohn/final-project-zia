@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import TextWithHeader from "../components/TextWithHeader";
-//import PhotoHomepage from "../components/PhotoHomepage"; 
+import PhotoHomepage from "../components/PhotoHomepage"; 
+
 
 function Home (){
     return (
@@ -15,6 +16,7 @@ function Home (){
 "
     />
 
+    
     </>
     );
 }

@@ -17,7 +17,7 @@ function App() {
       <Link to="/">Home</Link> |{" "}
       <Link to="/about">About</Link> |{" "}
       <Link to="/profile">Profile</Link> | {" "}
-      <Link to="/timelinePage">Timeline</Link>
+      <Link to="/timelinePage">Timeline</Link> | {" "}
       <Link to="/sources">Sources</Link>
     </nav>
     

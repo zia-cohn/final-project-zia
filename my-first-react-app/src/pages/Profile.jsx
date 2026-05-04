@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import TextWithHeader from "../components/TextWithHeader";
-import ProfilePage from "../components/ProfilePage"; 
+// import ProfilePage from "../components/ProfilePage"; 
+import ExampleInput from "../ExampleInput"; 
 
 
 function Profile (){
@@ -12,8 +13,13 @@ function Profile (){
         mySubtitle="Please sign in or make a profile."
         myText=" This will allow you to save your progress."
     />
+    <br />
 
         <ProfilePage />
+
+    
+    
+
     </>
     );
 }

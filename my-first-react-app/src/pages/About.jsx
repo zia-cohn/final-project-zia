@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import ProfileCard from"../components/ProfileCard";
 import TextWithHeader from "../components/TextWithHeader";
+import BabyPic from "../assets/BabyPic.JPG";
 
 function About (){
     return (
@@ -9,7 +10,7 @@ function About (){
     
     <div className="grid grid-cols-1 gap-4">
         <ProfileCard
-            cardEmoji="🍓"
+            cardImage={BabyPic}
             cardHeader="Zia C"
             cardSubtitle="Project Lead"
             cardBlurb="I created this project because as a half-Mongolian student, I wanted to create this project to help me explore deeper into my heritage. This project would help me better connect with my roots and be able to share my culture with others."

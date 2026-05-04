@@ -4,11 +4,11 @@ import TextWithHeader from "../components/TextWithHeader";
 function Source (){
     return (
     <>
-    <Header title="Sources" subtitle="Welcome to..." />
+    <Header title="Sources" subtitle="" />
 
     <TextWithHeader
-        mySubtitle="What is this?"
-        myText=""
+        mySubtitle=""
+        myText="Some Sources: - https://www.britannica.com/biography/Genghis-Khan "
 
     />
     
