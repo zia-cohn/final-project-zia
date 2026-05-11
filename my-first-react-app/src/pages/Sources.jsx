@@ -25,6 +25,30 @@ function Source (){
                 title="Facts and Details, Mongols After the End of the Mongol Empire"
                 url="- https://factsanddetails.com/central-asia/Mongolia/sub8_2b/entry-4561.html"
             />
+            <SourcePage
+                title="Britannica, Dayan Khan"
+                url="- https://www.britannica.com/biography/Dayan-Khan"
+            />
+            <SourcePage
+                title="Britannica, Altan Khan"
+                url="- https://www.britannica.com/biography/Altan"
+            />
+            <SourcePage
+                title="Britannica, Tibetan Buddhism"
+                url="- https://www.britannica.com/topic/Tibetan-Buddhism"
+            />
+            <SourcePage
+                title="Britannica, Ligdan"
+                url="- https://www.britannica.com/biography/Ligdan"
+            />
+            <SourcePage
+                title="Britannica, Zanabazar"
+                url="- https://www.britannica.com/biography/Zanabazar"
+            />
+            <SourcePage
+                title="Britannica, Key People of the Mongol Empire"
+                url="- https://www.britannica.com/summary/Key-People-of-the-Mongol-Empire"
+            />
         </ul>
         </div>
     

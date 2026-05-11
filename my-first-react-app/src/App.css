@@ -65,3 +65,13 @@
   font-size: 18px;
   font-weight: bold;
 }
+
+.ul {
+  list-style: none;
+  padding: 0cm;
+}
+
+.li {
+  color: rgb(84, 217, 250);
+  font-size: 18px;
+}

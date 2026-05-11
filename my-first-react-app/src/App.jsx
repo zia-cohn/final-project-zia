@@ -5,6 +5,7 @@ import Home from "./pages/Home.jsx";
 import About from"./pages/About.jsx";
 import Profile from "./pages/Profile.jsx";
 import TimelinePage from './pages/TimelinePage.jsx';
+// import importantPeople from './data/importantPeople.js';
 import Sources from './pages/Sources.jsx';
 
 
@@ -18,6 +19,7 @@ function App() {
       <Link to="/about">About</Link> |{" "}
       <Link to="/profile">Profile</Link> | {" "}
       <Link to="/timelinePage">Timeline</Link> | {" "}
+      {/* <Link to="/importantPeople">Important People </Link> | {" "} */}
       <Link to="/sources">Sources</Link>
     </nav>
     
@@ -26,6 +28,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/timelinePage" element={<TimelinePage />}/>
+        {/* <Route path="/importantPeople" element={<importantPeople />} /> */}
         <Route path="/sources" element={<Sources />}/>
       </Routes>
 

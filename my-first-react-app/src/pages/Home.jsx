@@ -6,7 +6,7 @@ import PhotoHomepage from "../components/PhotoHomepage";
 function Home (){
     return (
     <>
-    <Header title="Home Page" subtitle="Welcome to..." />
+    <Header title="Welcome to Chronicles of the Mongol Empire" subtitle="Home Page" />
      
     <PhotoHomepage />
     
