@@ -1,16 +1,18 @@
+import BabyPic from "../assets/BabyPic.JPG";
+
 function ProfileCard ({cardEmoji,cardHeader,cardSubtitle,cardBlurb}){
     return (
         <div className ="m-6 border p-3">
             
-            {cardImage (
+             (
                 <img
-                src={cardImage}
+                src={BabyPic.JPG}
                 alt="Profile"
                 className = "w-31 h-31 object-cover rounded-full mx-auto mb-3 border-4 border-pink-200 shadow-md"
                 />
             ) (
                 <span className= "text-5xl">{cardEmoji}</span>
-            )}
+            )
 
             <span className ="text-5xl">{cardEmoji}</span>
 

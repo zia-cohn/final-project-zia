@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,4 +41,27 @@
 
 .read-the-docs {
   color: #888;
+}
+
+/*Page styling */
+.body{
+  background-color: #E6F1FC;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #222
+}
+
+/* Navigation Bar */
+.nav {
+  background-color: #003C78;
+  padding: 1cm;
+  border-radius: 10px;
+}
+
+/* Navigation Links */
+.nava {
+  color:white;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 18px;
+  font-weight: bold;
 }

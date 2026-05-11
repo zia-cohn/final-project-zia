@@ -9,10 +9,10 @@ const [grade, setGrade] = useState ("");
 const [users, setUsers] = useState ([]);
 
    
-useEffect (() => {
-    const savedUsers = JSON.parse (localStorage.getItem ("users")) || [];
-    setUsers (savedUsers);
-}, []);
+// useEffect (() => {
+//     const savedUsers = JSON.parse (localStorage.getItem ("users")) || [];
+//     setUsers (savedUsers);
+// }, []);
 
 function handleSubmit (event){
     event.preventDefault();
@@ -58,10 +58,10 @@ function handleSubmit (event){
             />
 
             <input
-            type="text"
+            type="number"
             placeholder="Grade"
             value={grade}
-            onChnage= {(e) => setGrade (e.target.value)}
+            onChange= {(e) => setGrade (e.target.value)}
             />
 
             

@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 import TextWithHeader from "../components/TextWithHeader";
-// import ProfilePage from "../components/ProfilePage"; 
+import ProfilePage from "../components/ProfilePage"; 
 import ExampleInput from "../ExampleInput"; 
 
 
@@ -17,7 +17,7 @@ function Profile (){
 
         <ProfilePage />
 
-    
+        <ExampleInput />
     
 
     </>
