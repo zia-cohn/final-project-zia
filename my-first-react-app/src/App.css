@@ -45,20 +45,22 @@
 
 /*Page styling */
 .body{
+  margin: 0;
   background-color: #E6F1FC;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: #222
 }
 
 /* Navigation Bar */
 .nav {
   background-color: #003C78;
-  padding: 1cm;
-  border-radius: 10px;
+  padding: 1px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
 }
 
 /* Navigation Links */
-.nava {
+.nav a {
   color:white;
   text-decoration: none;
   margin: 10px;
@@ -74,4 +76,30 @@
 .li {
   color: rgb(84, 217, 250);
   font-size: 18px;
+}
+
+.button {
+  background-color: rgb(249, 179, 191);
+  border: none;
+  padding: 10px 15px;
+  margin: 8px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.2s ease;
+  box-shadow: 2px 3px 8px rgba (0,0,0,0.1);
+}
+
+.button:hover {
+  background: rgb(233, 101, 123);
+  transform: scale(1.05);
+}
+
+.quiz-container {
+  background-color: aquamarine;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
 }
