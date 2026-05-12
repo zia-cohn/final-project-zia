@@ -44,15 +44,15 @@
 }
 
 /*Page styling */
-.body{
+body{
   margin: 0;
-  background-color: #E6F1FC;
+  background-color: #f7eaa5;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /* Navigation Bar */
-.nav {
-  background-color: #003C78;
+nav {
+  background-color: #0066B3;
   padding: 1px;
   border-radius: 20px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -60,7 +60,7 @@
 }
 
 /* Navigation Links */
-.nav a {
+nav a {
   color:white;
   text-decoration: none;
   margin: 10px;
@@ -68,18 +68,18 @@
   font-weight: bold;
 }
 
-.ul {
+ul {
   list-style: none;
   padding: 0cm;
 }
 
-.li {
+li {
   color: rgb(84, 217, 250);
   font-size: 18px;
 }
 
-.button {
-  background-color: rgb(249, 179, 191);
+button {
+  background-color: #DA2032;
   border: none;
   padding: 10px 15px;
   margin: 8px;
@@ -90,13 +90,13 @@
   box-shadow: 2px 3px 8px rgba (0,0,0,0.1);
 }
 
-.button:hover {
-  background: rgb(233, 101, 123);
+button:hover {
+  background: rgb(179, 84, 84);
   transform: scale(1.05);
 }
 
-.quiz-container {
-  background-color: aquamarine;
+quiz-container {
+  background-color: rgb(246, 42, 42);
   max-width: 600px;
   margin: 30px auto;
   padding: 20px;

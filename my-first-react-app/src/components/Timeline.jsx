@@ -8,8 +8,8 @@ function Timeline() {
                     <h2 className="text-x1 font-bold">{event.year}-{event.title}</h2>
 
                  <img
-                    src={event.image}
-                    alt={event.title}
+                    src={item.image}
+                    alt={item.title}
                     className="w-full max-w-md my-2"
                  />
 
