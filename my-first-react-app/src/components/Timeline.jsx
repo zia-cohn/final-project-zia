@@ -11,17 +11,11 @@ function Timeline() {
                     src={event.image}
                     alt={event.title}
                     className="w-full max-w-md my-2"
-                    />
+                 />
 
-                <p>{event.description}</p>
+                    <p>{event.description}</p>
 
-                <button
-                onClick={() => alert(event.title)}
-                className="mt-2 px-3 py-1 bg-blue-500 text-white"
-                >
-
-                </button>
-            </div>
+                </div>
             )) }
         </div>
     );

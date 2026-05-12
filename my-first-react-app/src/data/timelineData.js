@@ -1,10 +1,13 @@
+// import genghiskhanPhoto.jpeg from "../assets/genghiskhanPhoto.jpeg";
+// import Mongol-empire.jpg from "../assets/Mongol-empire.jpg"
+
 const timelineData = [
     {
         id: 1,
         year: "1162 ", 
         title: "Genghis Khan", 
         description:"The founder and first Great Khan of the Mongol Empire. Born as Temüjin, on the steppes of Mongolia. He is son of Yesügei, a member of the royal Borjigin clan of the nomadic Mongol people.",
-        image:"genghiskhanPhoto.jpeg"
+        image:"/genghiskhanPhoto.jpeg"
     },
     {
         id: 2, 
@@ -18,7 +21,7 @@ const timelineData = [
         year: "1206",
          title:" The Rise of the Mongol Empire",
         description:"Temüjin rises to power by making powerful allies and forming his own army. He conquers rival clans",
-        image:"Mongol-empire.jpg",
+        image:"/Mongol-empire.jpg",
     }, 
     {
         id: 4,
@@ -37,28 +40,26 @@ const timelineData = [
         year: "1223",
         title: "Russia",
         description:"Some Mongol troops start to penetrate into southern Russia and raid cities in Crimea.",
-        image:"Mongolwarriors-Raid.jpg",
+        image:"/Mongolwarriors-Raid.jpg",
     }, 
     {
         id: 7,
         year: "1227-29",
         title: "After Genghis Khan's death",
         description:"Genghis Khan dies in 1227. His son Ögödei is the leader of the empire by 1229. The empire now stretches from the Caspian Sea in the west to the China Sea in the east and from the Siberia in the north to Tibet in the south. A well-organized messenger system, commonly known as Örtöö (meaning 'checkpoint' or 'relay station' in Mongolian) covered most of Asia and kept the Mongol rulers aware of what was happening over the vast empire.",
-        image:"",
     }, 
     {
         id: 8,
         year: "1231",
         title: "Khwārezm-Shāh",
         description:"The Mongols defeat the Khwārezm-Shāh Dynasty of Central Asia. The Khwārezm-Shāh Dynasty ruled in Central Asia and Iran.",
-        image:"",
     }, 
     {
         id: 9,
         year: "1237-40",
         title: "Golden Horde",
         description:"In the western part of the empire, also known as the Golden Horde, there was a annihilation of the Bulgars in eastern Europe. Batu, a grandson of Genghis Khan, expands the domain of the Golden Horde in a series of campaigns. That include sacking and burning of the city of Kyiv in 1240. (At this time Kyiv is the major city of Russia.)",
-        image:"Mongol-Horde-Toda-Mongke-paper-khan-Golden.jpg.webp",
+        image:"/Mongol-Horde-Toda-Mongke-paper-khan-Golden.jpg.webp",
     }, 
     {
         id: 10,
@@ -89,7 +90,7 @@ const timelineData = [
         year: "1294",
         title: "Kublai's death",
         description:"After Kublai's death, the Mongol Empire started to split into fragments as disputes over succession weaken the central government.",
-        image:"Yuan-empire-extent-Kublai-Khan.jpg",
+        image:"/Yuan-empire-extent-Kublai-Khan.jpg",
     }, 
     {
         id: 15,
@@ -114,14 +115,13 @@ const timelineData = [
         year: "1466",
         title: "Dayan Khan",
         description:"Dayan Khan, a significant Northern Yuan dynasty khagan who, reunited the fragmented Mongol tribes under Genghisid rule.",
-        image: "BATMUNKH_DAYAN_KHAN.jpg"
+        image: "/BATMUNKH_DAYAN_KHAN.jpg"
     }, 
     {
         id: 19,
         year: "1500-1583",
         title: "Altan Khan",
-        description:"Uzbek powers conquer former Mongol territories in Central Asia. Mongols permanetly lose most land outside Mongolia. Altan Khan, a leared of the Tümed Mongols and the de facto ruler of the Right Wing (western tribes). He was grandson of Dayan Khan. Altan reuntites many Mongol tribes inside Mongolia, launching raids against Ming China. He signs a peace treaty with China in 1571.  ",
-        image: "",
+        description:"Uzbek powers conquer former Mongol territories in Central Asia. Mongols permanetly lose most land outside Mongolia. Altan Khan, a leader of the Tümed Mongols and the de facto ruler of the Right Wing (western tribes). He was grandson of Dayan Khan. Altan reuntites many Mongol tribes inside Mongolia, launching raids against Ming China. He signs a peace treaty with China in 1571.  ",
     }, 
     {
         id: 20,
@@ -134,7 +134,7 @@ const timelineData = [
         year: "1578",
         title: "The begining of Tibetan Buddhism",
         description:"Altan Khan converts to Tibetan Buddhism, which evolved from a rigorous intellectual disciplines of Madhyamika and Yogachara philosophy. This incorporates Tantric ritual practices from Central Asia and Tibet, as well as the monastic disciplines of erly Theravada Buddhism. Altan Khan gives the title of 'Dalai Lama' to Sonam Gyatso, a Indian mountaineer who summited Mount Everest. Tibetan Buddihsm spreads rapildy across Mongolia.",
-        image: "Unknown.jpeg",
+        image: "/Unknown.jpeg",
     }, 
     {
         id: 22,
@@ -159,7 +159,7 @@ const timelineData = [
         year: "1634-35",
         title: "Ligdan Khan",
         description:"Lighan Khan, the last paramount khagan of the Northern Yuan dynasty. He ruled the Chakhar Mongols from 1604 to 1634. He was the final Borjigin descendant to claim authority over a unified Mongolia. He died of smallpox in Tibet. His death caused Mongol resisitance to the rising Manchus to weaken dramatically.",
-        image: "Unknown-1.jpeg",
+        image: "/Unknown-1.jpeg",
     }, 
     {
         id: 26,

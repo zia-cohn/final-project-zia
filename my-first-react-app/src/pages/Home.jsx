@@ -12,8 +12,7 @@ function Home (){
     
     <TextWithHeader
         mySubtitle="What is this?"
-        myText="This is a interactive web page built to help you learn more about Mongolian History and Culture in a fun and interactive way!! The importance of Mongolian history lies in its profound and lasting impact on global systems of trade, governance, warfare, and cultural exchange — even if it's often overlooked in mainstream Western curricula.
-"
+        myText="This is a interactive web page built to help you learn more about Mongolian History and Culture in a fun and interactive way!!"
     />
 
     

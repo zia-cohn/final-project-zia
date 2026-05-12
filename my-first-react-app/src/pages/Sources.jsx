@@ -49,6 +49,38 @@ function Source (){
                 title="Britannica, Key People of the Mongol Empire"
                 url="- https://www.britannica.com/summary/Key-People-of-the-Mongol-Empire"
             />
+            <SourcePage 
+                title="National Geographic, Encyclopedic Entry, Yurt"
+                url="- https://education.nationalgeographic.org/resource/yurt/"
+            />
+            <SourcePage 
+                title="History on the Net, Mongols: Nomads and Their Animals"
+                url="https://www.historyonthenet.com/mongols-nomads-and-their-animals"
+            />
+            <SourcePage
+                title="American Museum of Natural History, The Horse in Mongolian Culture"
+                url="https://www.amnh.org/explore/videos/biodiversity/takhi-mongolian-horse/horse-mongolian-culture"
+            />
+            <SourcePage
+                title="unesco, Culture of the Mongolian Deel"
+                url="https://www.unesco.org/archives/multimedia/document-2200"
+            />
+            <SourcePage 
+                title="Elite, Mongolia Culinary Story"
+                url="https://www.eliteplusmagazine.com/Article/901/Mongolia_Culinary_Story"
+            />
+            <SourcePage
+                title="Britannica, Throat Singing"
+                url="https://www.britannica.com/art/throat-singing"
+            />
+            <SourcePage
+                title="unesco, Traditional music of the Morin Khuur"
+                url="https://ich.unesco.org/en/RL/traditional-music-of-the-morin-khuur-00068"
+            />
+            <SourcePage
+                title="unesco, Naadam, Mongolian traditional festival"
+                url="https://ich.unesco.org/en/RL/naadam-mongolian-traditional-festival-00395"
+            />
         </ul>
         </div>
     
