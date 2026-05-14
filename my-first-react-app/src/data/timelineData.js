@@ -1,11 +1,5 @@
-// import genghis from "../assets/genghiskhanPhoto.jpeg";
-// import empire from "../assets/Empire.jpg";
-// import horde from "../assets/Horde.webp";
-// import raid from "../assets/Raid.jpg";
-// import yuan from "../assets/Yuan.jpg";
-// import dayan from "../assets/Dayan.jpg";
-// import altan from "../assets/Altan.jpeg";
-// import ligdan from "../assets/Ligdan.jpeg";
+
+import Genghis from "../assets/Genghis.jpeg"
 
 const timelineData = [
     {
@@ -13,7 +7,7 @@ const timelineData = [
         year: "1162 ", 
         title: " Genghis Khan", 
         description:"The founder and first Great Khan of the Mongol Empire. Born as Temüjin, on the steppes of Mongolia. He is son of Yesügei, a member of the royal Borjigin clan of the nomadic Mongol people.",
-        image:"Genghis.jpeg"
+        image:{Genghis}
     },
     {
         id: 2, 
@@ -27,7 +21,7 @@ const timelineData = [
         year: "1206 ",
          title:" The Rise of the Mongol Empire",
         description:"Temüjin rises to power by making powerful allies and forming his own army. He conquers rival clans",
-        image:"Empire.jpg",
+        image:"/Empire.jpg",
     }, 
     {
         id: 4,
@@ -46,7 +40,7 @@ const timelineData = [
         year: "1223 ",
         title: " Russia",
         description:"Some Mongol troops start to penetrate into southern Russia and raid cities in Crimea.",
-        image:"Horde.webp",
+        image:"/Horde.webp",
     }, 
     {
         id: 7,
@@ -65,7 +59,7 @@ const timelineData = [
         year: "1237-40 ",
         title: " Golden Horde",
         description:"In the western part of the empire, also known as the Golden Horde, there was a annihilation of the Bulgars in eastern Europe. Batu, a grandson of Genghis Khan, expands the domain of the Golden Horde in a series of campaigns. That include sacking and burning of the city of Kyiv in 1240. (At this time Kyiv is the major city of Russia.)",
-        image:"Raid.jpg",
+        image:"/Raid.jpg",
     }, 
     {
         id: 10,
@@ -96,7 +90,7 @@ const timelineData = [
         year: "1294 ",
         title: " Kublai's death",
         description:"After Kublai's death, the Mongol Empire started to split into fragments as disputes over succession weaken the central government.",
-        image:"Yuan.webp",
+        image:"/Yuan.webp",
     }, 
     {
         id: 15,
@@ -121,7 +115,7 @@ const timelineData = [
         year: "1466 ",
         title: " Dayan Khan",
         description:"Dayan Khan, a significant Northern Yuan dynasty khagan who, reunited the fragmented Mongol tribes under Genghisid rule.",
-        image: "Dayan.jpg"
+        image: "/Dayan.jpg"
     }, 
     {
         id: 19,
@@ -140,7 +134,7 @@ const timelineData = [
         year: "1578 ",
         title: " The begining of Tibetan Buddhism",
         description:"Altan Khan converts to Tibetan Buddhism, which evolved from a rigorous intellectual disciplines of Madhyamika and Yogachara philosophy. This incorporates Tantric ritual practices from Central Asia and Tibet, as well as the monastic disciplines of erly Theravada Buddhism. Altan Khan gives the title of 'Dalai Lama' to Sonam Gyatso, a Indian mountaineer who summited Mount Everest. Tibetan Buddihsm spreads rapildy across Mongolia.",
-        image: "Altan.jpeg",
+        image: "/Altan.jpeg",
     }, 
     {
         id: 22,
@@ -165,7 +159,7 @@ const timelineData = [
         year: "1634-35 ",
         title: " Ligdan Khan",
         description:"Lighan Khan, the last paramount khagan of the Northern Yuan dynasty. He ruled the Chakhar Mongols from 1604 to 1634. He was the final Borjigin descendant to claim authority over a unified Mongolia. He died of smallpox in Tibet. His death caused Mongol resisitance to the rising Manchus to weaken dramatically.",
-        image: "Ligdan.jpeg",
+        image: "/Ligdan.jpeg",
     }, 
     {
         id: 26,
